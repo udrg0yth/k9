@@ -54,24 +54,24 @@ body{
 	padding:2% 0;
 }
 .header-top{
-	border-bottom: 1px solid #FFF;
+	border-bottom: 1px solid #000;
 	padding-bottom: 1%;
 }
 .header-bottom{
-	border-top: 1px solid #FFF;
+	border-top: 1px solid #000;
 	padding-top: 2%;
 }
 .logo, .f-logo{
 	float:left;
 }
 .logo h1 a{
-	color:#fff;
+	color:#000;
 	text-transform:uppercase;
 	font-size:5em;
 	font-family: 'Aller_Bd';
 }
 .f-logo h1 a{
-	color:#fff;
+	color:#000;
 	text-transform:uppercase;
 	font-size:5em;
 	font-family: 'Aller_Bd';
@@ -95,7 +95,7 @@ body{
   	 height: 35px;
 	line-height: 28px;
 	text-transform: uppercase;
-	color: #fff;
+	color: #000;
 	font-size:1.2em;
 	font-weight:900;
 	text-align:center;
@@ -107,8 +107,8 @@ body{
 	transition: .2s all linear;
 }
 .menu li.active a, .menu li a:hover {
-	color:#fff;
-	border-bottom:2px solid #fff;
+	color:#000;
+	border-bottom:2px solid #000;
 	height: 0px;
 }
 .tp1 {
@@ -211,8 +211,8 @@ body{
 /*--content--*/
 /*  GRID OF TWO   ============================================================================= */
 .btn-1 {
-	border: 3px solid #FFF;
-	color: #FFF;
+	border: 3px solid #000;
+	color: #000;
 }
 .btn1 {
 	border: none;
@@ -233,12 +233,12 @@ body{
 	font-family: 'Aller_Bd';
 }
 .btn-1 {
-	border: 3px solid #FFF;
-	color: #FFF;
+	border: 3px solid #000;
+	color: #000;
 }
 .btn-1a:hover, .btn-1a:active {
 	color:#909dbc;
-	background: #FFF;
+	background: #000;
 }
 .col_1_of_header{
 	display: block;
@@ -250,7 +250,7 @@ body{
 	width: 46.2%;
 }
 .span_1_of_header  h3{
-	color: #FFF;
+	color: #000;
 	margin-bottom: 0.5em;
 	font-size:2em;
 	line-height: 1.2;
@@ -263,7 +263,7 @@ body{
 .span_1_of_header  p{
 	font-size:1.1em;
 	padding: 0.5em 0;
-	color:#FFF;
+	color:#000;
 	line-height: 1.5em;
 	font-family: 'Open Sans';
 }
@@ -303,8 +303,8 @@ body{
 	}
 }
 .span_1_of_header img{
-	background:#fff;
-	border:10px solid #fff;
+	background:#000;
+	border:10px solid #000;
 	display: block;
 }
 .top-box{
@@ -629,7 +629,7 @@ h4 span {
 	padding: 52px 0;
 	overflow: hidden;
 	font-size:1.1em;
-	color: #888;
+	color: #000;
 	line-height: 1.5em;
 	font-family: 'Open Sans';
 }
@@ -730,7 +730,7 @@ ul.list3 li.last{
 	overflow: hidden;
 }
 .extra-wrap p {
-	color:white;
+	color:black;
 	line-height: 1.5em;
 	font-family: 'Open Sans';
 	font-size: 1.1em;
@@ -766,7 +766,7 @@ ul.list3 li.last{
 	background: url(../images/top-move.png) no-repeat right top;
 }
 .footer-bot p a{
-	color:#fff;
+	color:#000;
 }
 .footer-bot p a:hover{
 	color:#FCF8CA;
@@ -835,7 +835,7 @@ ul.grid_no{
 	padding-top:6%;
 }
 span.text1{
-	color:#888;
+	color:#000;
 	font-family: 'Open Sans';
 	font-size: 1.1em;
 }
@@ -851,7 +851,7 @@ p.desc{
 	line-height: 1.7em;
 }
 span.desc1{
-	color: #888;
+	color: #000;
 	font-family: 'Open Sans';
 	font-size: 1.1em;
 	line-height:1.5em;
@@ -862,7 +862,7 @@ span.desc1{
 	-moz-transition: all 0.35s ease;
 	-o-transition: all 0.35s ease;
 	transition: all 0.35s ease;
-	color:#888;
+	color:#000;
 }
 .btn {
 	box-shadow: none;
@@ -896,7 +896,7 @@ span.desc1{
 	margin-left: 3px;
 }
 .a-hov{
-	color: #888;
+	color: #000;
 	font-family: 'Open Sans';
 	font-size: 1em;
 	line-height: 1.5em;
@@ -1053,7 +1053,7 @@ span.desc1{
 	font-family: 'Open Sans';
 	margin: 1.5em 0;
 	font-size: 1.1em;
-	color: #888;
+	color: #000;
 }
 .contact-form textarea {
 	display: block;
@@ -1064,7 +1064,7 @@ span.desc1{
 	margin: 1em 0;
 	border: none;
 	outline: none;
-	color: #888;
+	color: #000;
 	font-size: 1.1em;
 }
 .contact-form input[type="submit"] {
@@ -1072,7 +1072,7 @@ span.desc1{
 	padding: 10px;
 	display: inline-block;
 	font-family: 'Aller_Bd';
-	color: #FFF;
+	color: #000;
 	text-transform: uppercase;
 	font-size: 1.2em;
 	transition: 0.5s ease;
