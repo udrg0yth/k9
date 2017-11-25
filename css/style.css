@@ -116,6 +116,7 @@ body{
 	top: 48px;
 	display: inline-block;
 }
+
 .thumb-pad1 .thumbnail {
 	position: relative;
 	padding: 0;
@@ -1015,7 +1016,7 @@ span.desc1{
 }
 .contact-left p {
 	font-family: 'Open Sans';
-	color: #555;
+	color: #000;
 	display: block;
 	font-size: 1em;
 	font-weight: 400;
@@ -1036,10 +1037,10 @@ span.desc1{
 	width: 81%;
 }
 .contact-left-grid-info h5 {
-	color: #555;
+	color: #000;
 	font-family: 'Open Sans';
 	display: block;
-	font-size: 0.89em;
+	font-size: 1.2em;
 	font-weight: 400;
 	line-height: 1.8em;
 	text-transform: uppercase;
