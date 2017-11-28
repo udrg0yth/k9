@@ -53,12 +53,18 @@ body{
 	z-index: 99;
 	padding:2% 0;
 }
-.header-top{
-	border-bottom: 1px solid #000;
-	padding-bottom: 1%;
+.header-top{/*
+	border-bottom: 1px solid #000;*//*
+	padding-bottom: 1%;*/
+	position:fixed;
+	margin-top:-2%;
+	width:100vw;
+	background: #8494b7;
+	opacity: 1;
+	z-index: 6000;
 }
 .header-bottom{
-	border-top: 1px solid #000;
+	margin-top:100px;
 	padding-top: 2%;
 }
 .logo, .f-logo{
@@ -268,11 +274,19 @@ body{
 	line-height: 1.5em;
 	font-family: 'Open Sans';
 }
+@media only screen and (max-width: 1800px) {
+	.header-bottom {
+		margin-top:100px;
+	}
+}
 /***** Media Quries *****/
 @media only screen and (max-width: 1024px) {
 	.wrap{
 		width:95%;
 	}	
+	.header-bottom {
+		margin-top:200px;
+	}
 }
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
 @media only screen and (max-width: 640px) and (min-width: 480px) {
@@ -285,6 +299,9 @@ body{
 	.span_1_of_2 {
 		width:94%;
 		padding:3%; 
+	}
+	.header-bottom {
+		margin-top:200px;
 	}
 }
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -367,6 +384,9 @@ body{
 	.span_1_of_3 {
 		width:92%;
 		padding:4%;
+	}
+	.header-bottom {
+		margin-top:200px;
 	}
 }
 .content-middle{
@@ -1182,6 +1202,8 @@ span.desc1{
 	}
 	.header-top {
 		padding-bottom:0;
+		position:fixed;
+		width:100vw;
 	}
 	.menu ul li {
 		height: 90px;
