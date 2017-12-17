@@ -59,7 +59,7 @@ body{
 	position:fixed;
 	margin-top:-2%;
 	width:100vw;
-	background: #8494b7;
+	background: #434978;
 	opacity: 1;
 	z-index: 6000;
 }
@@ -86,9 +86,7 @@ body{
 	padding-top:4%;
 }
 /*--menu--*/
-.menu{
-	margin-left:15%;
-}
+
 .menu ul li {
 	list-style: none;
 	height: 108px;
@@ -101,7 +99,7 @@ body{
   	 height: 35px;
 	line-height: 28px;
 	text-transform: uppercase;
-	color: #000;
+	color: #FFF;
 	font-size:1.2em;
 	font-weight:900;
 	text-align:center;
@@ -113,8 +111,8 @@ body{
 	transition: .2s all linear;
 }
 .menu li.active a, .menu li a:hover {
-	color:#000;
-	border-bottom:2px solid #000;
+	color:#FFF;
+	border-bottom:2px solid #FFF;
 	height: 0px;
 }
 .tp1 {
@@ -274,20 +272,1917 @@ body{
 	line-height: 1.5em;
 	font-family: 'Open Sans';
 }
-@media only screen and (max-width: 1800px) {
-	.header-bottom {
-		margin-top:100px;
+
+.logo-bgr {
+	background:transparent !important;
+	border-style: none !important;
+}
+
+.divider {
+	height:1px;
+}
+
+.divider-space{
+	height:1px;
+	margin-top: 10%;
+}
+
+.divider-space-one{
+	height:1px;
+	margin-top: 1%;
+}
+
+.divider-space-five {
+	margin-top:5%;
+}
+
+.halign {
+	display:inline-block;
+	width:7%;
+}
+
+.square-list {
+	list-style-type: square !important;
+	margin-left:2% !important;
+}
+
+.four-vspace {
+	margin-bottom:4px !important;
+}
+
+.hand-pointer {
+	cursor:hand;
+	cursor:pointer;
+}
+
+.alert {
+	color:red !important;
+}
+
+.image-hide {
+	opacity: 1 !important;
+}
+
+.image-fix {
+	top: 0px !important;
+}
+
+.full-size {
+	width:100%;
+	height:100%;
+}
+
+@media only screen and (max-width: 3500px) and (min-width: 2500px){
+	.menu{
+		margin-left:30%;
+	}
+
+	.wrap-panel {
+		width:70%; box-shadow: 0px 0px 30px 15px #DCDCDC;
+	}
+
+	.initial-about {
+		width:78%;
+		margin-top:10%;
+		margin-bottom:8%;
+		margin-left:12%;
+		font-size: 25px;
+	}
+
+	.htitle-descriere {
+		margin-left:38% !important;
+		font-size:100px !important;
+	}
+
+	.htitle-metode-dresaj {
+		margin-left:28% !important;
+		font-size:100px !important;
+	}
+
+	.htitle-galerie {
+		margin-left:30% !important;
+		font-size:100px !important;
+	}
+
+	.htitle-istoric {
+		margin-left:34% !important;
+		font-size:100px !important;
+	}
+
+	.htitle-servicii {
+		margin-left:42% !important;
+		font-size:100px !important;
+	}
+
+	.htitle-specializari {
+		margin-left:36% !important;
+		font-size:100px !important;
+	}
+
+	.htitle-inscrieri {
+		margin-left:40.5% !important;
+		font-size:100px !important;
+	}
+
+	.enum-descriere {
+		font-size:20px;
+	}
+
+	.text-align-center {
+		width:75%;
+		margin-left:12%;
+		font-size: 25px;
+	}
+
+	.inscrieri-bubble {
+		width:70%;
+		margin-left:14%;
+		font-size:25px;
+	}
+
+	.galerie-istoric {
+		margin-left:33%;
+	}
+
+	.dresaj-atentie {
+		width:55%;
+		margin-left:20%;
+		margin-top:5%;
+	}
+
+	.inscrieri-text {
+		margin-left:12%;
+		font-size:28px;
+		width:80%;
+	}
+
+	.enum-inscrieri {
+		font-size:25px;
+	}
+
+	.icons-inscrieri {
+		width:42%;
+		padding-bottom:10px;
+		margin-top:-40px;
+	}
+
+	.maps {
+		width:120%;
+		height:400px;
+	}
+
+	.filters-center {
+		margin-right:45%;
+	}
+
+	.card-row-servicii {
+		margin-left:27.5%;
+		display:block;
+		clear: both;
+	}
+
+	.three-card-row-servicii {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:450px;
+	}
+
+	.two-cards-servicii {
+		width:30%;
+		height:420px;
+		display:block;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.three-cards-servicii {
+		width:26%;
+		height:420px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.cards-image-servicii {
+		margin-left:30%;
+		margin-top:8%;
+		width:40%;
+	}
+
+	.card-servicii-list {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:25px;
+	}
+
+	.cards-space-servicii {
+		margin-right:4%;
+	}
+
+	.class-text-servicii-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		width:70%;
+		font-size:25px;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-2 {
+		margin-top:15%; 
+		margin-left:25%; 
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-3 {
+		margin-top:15%; 
+		margin-left:28%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-4 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-5 {
+		margin-top:15%; 
+		margin-left:25%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-6 {
+		margin-top:15%; 
+		margin-left:15%; 
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-7 {
+		margin-top:15%; 
+		margin-left:20%;
+		width:70%;
+		font-size:25px;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-8 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-row-specializari {
+		margin-left:39%;
+		display:block;
+		clear: both;
+	}
+
+	.card-row-after-specializari {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:580px;
+	}
+
+	.one-card-row-specializari {
+		width:37%;
+		height:550px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+		margin-right:4%;
+	}
+
+	.three-card-specializari {
+		width:26%;
+		height:550px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+
+	}
+
+	.three-card-specializari-space {
+		margin-right:4%;
+	}
+
+	.card-text-specializari-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-1 {
+		margin-left:20%;
+		font-size:25px;
+		list-style-type:square;
+		margin-right:10%;
+	}
+
+	.card-text-specializari-2 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-2 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:25px;
+	}
+
+	.card-text-specializari-3 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-3 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:25px;
+	}
+
+	.card-text-specializari-4 {
+		margin-top:15%;
+		margin-left:15%;
+		font-family: 'Open Sans';
+		font-size:25px;
+		width:70%;
+	}
+
+	.card-list-specializari-4 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:25px;
+	}
+
+	.footer-height {
+		height:300px;
 	}
 }
+
+@media only screen and (max-width: 2500px) and (min-width: 2000px){
+	.menu{
+		margin-left:25%;
+	}
+
+	.wrap-panel {
+		width:70%; box-shadow: 0px 0px 30px 15px #DCDCDC;
+	}
+
+	.header-bottom {
+		margin-top:150px;
+	}
+
+	.initial-about {
+		width:78%;
+		margin-top:10%;
+		margin-bottom:8%;
+		margin-left:12%;
+		font-size: 22px;
+	}
+
+	.htitle-descriere {
+		margin-left:38% !important;
+		font-size:80px !important;
+	}
+
+	.htitle-metode-dresaj {
+		margin-left:28% !important;
+		font-size:80px !important;
+	}
+
+	.htitle-galerie {
+		margin-left:27% !important;
+		font-size:80px !important;
+	}
+
+	.htitle-istoric {
+		margin-left:33% !important;
+		font-size:80px !important;
+	}
+
+	.htitle-servicii {
+		margin-left:41% !important;
+		font-size:80px !important;
+	}
+
+	.htitle-specializari {
+		margin-left:36% !important;
+		font-size:80px !important;
+	}
+
+	.htitle-inscrieri {
+		margin-left:40% !important;
+		font-size:80px !important;
+	}
+
+	.enum-descriere {
+		font-size: 17px;
+	}
+
+	.text-align-center {
+		width:75%;
+		margin-left:12%;
+		font-size: 22px;
+	}
+
+	.inscrieri-bubble {
+		width:70%;
+		margin-left:14%;
+		font-size:22px;
+	}
+
+	.dresaj-atentie {
+		width:55%;
+		margin-left:20%;
+		margin-top:5%;
+	}
+
+	.galerie-istoric {
+		margin-left:29%;
+	}
+
+	.inscrieri-text {
+		margin-left:12%;
+		font-size:25px;
+		width:80%;
+	}
+
+	.enum-inscrieri {
+		font-size:22px;
+	}
+
+	.icons-inscrieri {
+		width:42%;
+		padding-bottom:10px;
+		margin-top:-20px;
+	}
+
+	.maps {
+		width:120%;
+		height:360px;
+	}
+
+	.filters-center {
+		margin-right:43%;
+	}
+
+	.card-row-servicii {
+		margin-left:27.5%;
+		display:block;
+		clear: both;
+	}
+
+	.three-card-row-servicii {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:430px;
+	}
+
+	.two-cards-servicii {
+		width:30%;
+		height:400px;
+		display:block;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.three-cards-servicii {
+		width:26%;
+		height:400px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.cards-image-servicii {
+		margin-left:30%;
+		margin-top:8%;
+		width:40%;
+	}
+
+	.card-servicii-list {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:25px;
+	}
+
+	.cards-space-servicii {
+		margin-right:4%;
+	}
+
+	.class-text-servicii-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-2 {
+		margin-top:15%; 
+		margin-left:25%; 
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-3 {
+		margin-top:15%; 
+		margin-left:28%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-4 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-5 {
+		margin-top:15%; 
+		margin-left:25%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-6 {
+		margin-top:15%; 
+		margin-left:15%; 
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-7 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-8 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-row-specializari {
+		margin-left:39%;
+		display:block;
+		clear: both;
+	}
+
+	.card-row-after-specializari {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:540px;
+	}
+
+	.one-card-row-specializari {
+		width:37%;
+		height:510px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+		margin-right:4%;
+	}
+
+	.three-card-specializari {
+		width:26%;
+		height:510px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+
+	}
+
+	.three-card-specializari-space {
+		margin-right:4%;
+	}
+
+	.card-text-specializari-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-1 {
+		margin-left:20%;
+		font-size:25px;
+		list-style-type:square;
+		margin-right:10%;
+	}
+
+	.card-text-specializari-2 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-2 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:25px;
+	}
+
+	.card-text-specializari-3 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:25px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-3 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:25px;
+	}
+
+	.card-text-specializari-4 {
+		margin-top:15%;
+		margin-left:15%;
+		font-family: 'Open Sans';
+		font-size:25px;
+		width:70%;
+	}
+
+	.card-list-specializari-4 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:25px;
+	}
+
+	.footer-height {
+		height:300px;
+	}
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1600px){
+	.menu{
+		margin-left:20%;
+	}
+
+	.wrap-panel {
+		width:70%; box-shadow: 0px 0px 30px 15px #DCDCDC;
+	}
+
+	.header-bottom {
+		margin-top:150px;
+	}
+
+	.initial-about {
+		width:78%;
+		margin-top:10%;
+		margin-bottom:8%;
+		margin-left:12%;
+		font-size: 22px;
+	}
+
+	.htitle-descriere {
+		margin-left:39% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-metode-dresaj {
+		margin-left:30% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-galerie {
+		margin-left:30% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-istoric {
+		margin-left:33% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-servicii {
+		margin-left:42% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-specializari {
+		margin-left:37% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-inscrieri {
+		margin-left:41% !important;
+		font-size:60px !important;
+	}
+
+	.enum-descriere {
+		font-size:17px;
+	}
+
+	.text-align-center {
+		width:75%;
+		margin-left:12%;
+	}
+
+	.dresaj-atentie {
+		width:55%;
+		margin-left:20%;
+		margin-top:5%;
+	}
+
+	.galerie-istoric {
+		margin-left:20%;
+	}
+
+	.inscrieri-text {
+		margin-left:12%;
+		font-size:22px;
+		width:80%;
+	}
+
+	.enum-inscrieri {
+		font-size:22px;
+	}
+
+	.icons-inscrieri {
+		width:42%;
+		padding-bottom:10px;
+		margin-top:-15px;
+	}
+
+	.maps {
+		width:120%;
+		height:310px;
+	}
+
+	.inscrieri-bubble {
+		width:70%;
+		margin-left:14%;
+		font-size:22px;
+	}
+
+	.filters-center {
+		margin-right:42%;
+	}
+
+	.card-row-servicii {
+		margin-left:27.5%;
+		display:block;
+		clear: both;
+	}
+
+	.three-card-row-servicii {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:390px;
+	}
+
+	.two-cards-servicii {
+		width:30%;
+		height:360px;
+		display:block;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.three-cards-servicii {
+		width:26%;
+		height:360px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.cards-image-servicii {
+		margin-left:30%;
+		margin-top:8%;
+		width:40%;
+	}
+
+	.card-servicii-list {
+		margin-left:22%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.cards-space-servicii {
+		margin-right:4%;
+	}
+
+	.class-text-servicii-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-2 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-3 {
+		margin-top:15%; 
+		margin-left:23%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-4 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:22px;
+		width:75%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-5 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-size:22px;
+		width:75%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-6 {
+		margin-top:15%; 
+		margin-left:10%; 
+		font-size:22px;
+		width:75%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-7 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:22px;
+		width:75%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-8 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:22px;
+		width:75%;
+		font-family: 'Open Sans';
+	}
+
+	.card-row-specializari {
+		margin-left:39%;
+		display:block;
+		clear: both;
+	}
+
+	.card-row-after-specializari {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:540px;
+	}
+
+	.one-card-row-specializari {
+		width:37%;
+		height:510px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+		margin-right:4%;
+	}
+
+	.three-card-specializari {
+		width:26%;
+		height:510px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+
+	}
+
+	.three-card-specializari-space {
+		margin-right:4%;
+	}
+
+	.card-text-specializari-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-1 {
+		margin-left:20%;
+		font-size:22px;
+		list-style-type:square;
+		margin-right:10%;
+	}
+
+	.card-text-specializari-2 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-2 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.card-text-specializari-3 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-3 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.card-text-specializari-4 {
+		margin-top:15%;
+		margin-left:15%;
+		font-family: 'Open Sans';
+		font-size:22px;
+		width:70%;
+	}
+
+	.card-list-specializari-4 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.footer-height {
+		height:300px;
+	}
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1200px){
+	.menu{
+		margin-left:13%;
+	}
+
+	.wrap-panel {
+		width:70%; box-shadow: 0px 0px 30px 15px #DCDCDC;
+	}
+
+	.header-bottom {
+		margin-top:150px;
+	}
+
+	.initial-about {
+		width:78%;
+		margin-top:10%;
+		margin-bottom:8%;
+		margin-left:12%;
+		font-size: 24px;
+	}
+
+	.htitle-descriere {
+		margin-left:37% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-metode-dresaj {
+		margin-left:25.5% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-galerie {
+		margin-left:30% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-istoric {
+		margin-left:33% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-servicii {
+		margin-left:40.5% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-specializari {
+		margin-left:34% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-inscrieri {
+		margin-left:38.5% !important;
+		font-size:60px !important;
+	}
+
+	.enum-descriere {
+		font-size:20px;
+	}
+
+	.text-align-center {
+		width:75%;
+		margin-left:12%;
+		font-size: 24px;
+	}
+
+	.inscrieri-bubble {
+		width:70%;
+		margin-left:15%;
+		font-size:24px;
+	}
+
+	.dresaj-atentie {
+		width:55%;
+		margin-left:20%;
+		margin-top:5%;
+	}
+
+	.galerie-istoric {
+		margin-left:16.5%;
+	}
+
+	.inscrieri-text {
+		margin-left:12%;
+		font-size:22px;
+		width:80%;
+	}
+
+	.enum-inscrieri {
+		font-size:22px;
+	}
+
+	.icons-inscrieri {
+		width:42%;
+		padding-bottom:10px;
+		margin-top:-15px;
+	}
+
+	.maps {
+		width:120%;
+		height:280px;
+	}
+
+	.filters-center {
+		margin-right:40%;
+	}
+
+	.card-row-servicii {
+		margin-left:27.5%;
+		display:block;
+		clear: both;
+	}
+
+	.three-card-row-servicii {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:380px;
+	}
+
+	.two-cards-servicii {
+		width:30%;
+		height:320px;
+		display:block;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.three-cards-servicii {
+		width:26%;
+		height:320px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.cards-image-servicii {
+		margin-left:30%;
+		margin-top:8%;
+		width:40%;
+	}
+
+	.card-servicii-list {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;	
+		font-size:22px;
+	}
+
+	.cards-space-servicii {
+		margin-right:4%;
+	}
+
+	.class-text-servicii-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-2 {
+		margin-top:15%; 
+		margin-left:25%;
+		font-size:22px;
+		width:70%; 
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-3 {
+		margin-top:15%; 
+		margin-left:28%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-4 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-5 {
+		margin-top:15%; 
+		margin-left:25%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-6 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-7 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-8 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+
+	.card-row-specializari {
+		margin-left:39%;
+		display:block;
+		clear: both;
+	}
+
+	.card-row-after-specializari {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:500px;
+	}
+
+	.one-card-row-specializari {
+		width:37%;
+		height:480px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+		margin-right:4%;
+	}
+
+	.three-card-specializari {
+		width:26%;
+		height:480px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+
+	}
+
+	.three-card-specializari-space {
+		margin-right:4%;
+	}
+
+	.card-text-specializari-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-1 {
+		margin-left:20%;
+		font-size:22px;
+		list-style-type:square;
+		margin-right:10%;
+	}
+
+	.card-text-specializari-2 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-2 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.card-text-specializari-3 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-3 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.card-text-specializari-4 {
+		margin-top:15%;
+		margin-left:15%;
+		font-family: 'Open Sans';
+		font-size:22px;
+		width:70%;
+	}
+
+	.card-list-specializari-4 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.footer-height {
+		height:300px;
+	}
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1024px){
+	.menu{
+		margin-left:11%;
+	}
+
+	.wrap-panel {
+		width:70%; box-shadow: 0px 0px 30px 15px #DCDCDC;
+	}
+
+	.header-bottom {
+		margin-top:150px;
+	}
+
+	.initial-about {
+		width:78%;
+		margin-top:10%;
+		margin-bottom:8%;
+		margin-left:12%;
+		font-size: 22px;
+	}
+
+	.htitle-descriere {
+		margin-left:35% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-metode-dresaj {
+		margin-left:24% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-galerie {
+		margin-left:30% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-istoric {
+		margin-left:30% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-servicii {
+		margin-left:39% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-specializari {
+		margin-left:33% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-inscrieri {
+		margin-left:38% !important;
+		font-size:60px !important;
+	}
+
+	.enum-descriere {
+		font-size:21px;
+	}
+
+	.text-align-center {
+		width:75%;
+		margin-left:12%;
+		font-size: 22px;
+	}
+
+	.inscrieri-bubble {
+		width:70%;
+		margin-left:15%;
+		font-size:22px;
+	}
+
+	.dresaj-atentie {
+		width:55%;
+		margin-left:20%;
+		margin-top:5%;
+	}
+
+	.galerie-istoric {
+		margin-left:15.5%;
+	}
+
+	.inscrieri-text {
+		margin-left:12%;
+		font-size:22px;
+		width:80%;
+	}
+
+	.enum-inscrieri {
+		font-size:22px;
+	}
+
+	.icons-inscrieri {
+		width:42%;
+		padding-bottom:10px;
+		margin-top:-10px;
+	}
+
+	.maps {
+		width:120%;
+		height:260px;
+	}
+
+	.filters-center {
+		margin-right:40.5%;
+	}
+
+	.card-row-servicii {
+		margin-left:27.5%;
+		display:block;
+		clear: both;
+	}
+
+	.three-card-row-servicii {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:380px;
+	}
+
+	.two-cards-servicii {
+		width:30%;
+		height:320px;
+		display:block;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.three-cards-servicii {
+		width:26%;
+		height:320px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.cards-image-servicii {
+		margin-left:30%;
+		margin-top:8%;
+		width:40%;
+	}
+
+	.card-servicii-list {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+	}
+
+	.cards-space-servicii {
+		margin-right:4%;
+	}
+
+	.class-text-servicii-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-2 {
+		margin-top:15%; 
+		margin-left:25%; 
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-3 {
+		margin-top:15%; 
+		margin-left:28%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-4 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-5 {
+		margin-top:15%; 
+		margin-left:25%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-6 {
+		margin-top:15%; 
+		margin-left:15%; 
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-7 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-8 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-family: 'Open Sans';
+	}
+
+	.card-row-specializari {
+		margin-left:39%;
+		display:block;
+		clear: both;
+	}
+
+	.card-row-after-specializari {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:500px;
+	}
+
+	.one-card-row-specializari {
+		width:37%;
+		height:480px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+		margin-right:4%;
+	}
+
+	.three-card-specializari {
+		width:26%;
+		height:480px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+
+	}
+
+	.three-card-specializari-space {
+		margin-right:4%;
+	}
+
+	.card-text-specializari-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-1 {
+		margin-left:20%;
+		font-size:22px;
+		list-style-type:square;
+		margin-right:10%;
+	}
+
+	.card-text-specializari-2 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-2 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.card-text-specializari-3 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-3 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.card-text-specializari-4 {
+		margin-top:15%;
+		margin-left:15%;
+		font-family: 'Open Sans';
+		font-size:22px;
+		width:70%;
+	}
+
+	.card-list-specializari-4 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.footer-height {
+		height:300px;
+	}
+}
+
 /***** Media Quries *****/
 @media only screen and (max-width: 1024px) {
+	.menu{
+		margin-left:10%;
+	}
+
 	.wrap{
 		width:95%;
 	}	
 	.header-bottom {
-		margin-top:200px;
+		margin-top:150px;
+	}
+
+	.initial-about {
+		width:78%;
+		margin-top:10%;
+		margin-bottom:8%;
+		margin-left:12%;
+		font-size: 22px;
+	}
+
+	.htitle-descriere {
+		margin-left:32.5% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-metode-dresaj {
+		margin-left:18.5% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-galerie {
+		margin-left:30% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-istoric {
+		margin-left:30% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-servicii {
+		margin-left:35% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-specializari {
+		margin-left:27% !important;
+		font-size:60px !important;
+	}
+
+	.htitle-inscrieri {
+		margin-left:34% !important;
+		font-size:60px !important;
+	}
+
+	.enum-descriere {
+		font-size:21px;
+	}
+
+	.text-align-center {
+		width:75%;
+		margin-left:12%;
+		font-size: 22px;
+	}
+
+	.inscrieri-bubble {
+		width:70%;
+		margin-left:15%;
+		font-size:22px;
+	}
+
+	.dresaj-atentie {
+		width:55%;
+		margin-left:20%;
+		margin-top:5%;
+	}
+
+	.galerie-istoric {
+		margin-left:10%;
+	}
+
+	.inscrieri-text {
+		margin-left:12%;
+		font-size:22px;
+		width:80%;
+	}
+
+	.enum-inscrieri {
+		font-size:22px;
+	}
+
+	.icons-inscrieri {
+		width:42%;
+		padding-bottom:10px;
+	}
+
+	.maps {
+		width:120%;
+		height:240px;
+	}
+
+	.card-row-servicii {
+		margin-left:27.5%;
+		display:block;
+		clear: both;
+	}
+
+	.filters-center {
+		margin-right:42%;
+	}
+
+	.card-row-servicii {
+		margin-left:27.5%;
+		display:block;
+		clear: both;
+	}
+
+	.three-card-row-servicii {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:380px;
+	}
+
+	.two-cards-servicii {
+		width:30%;
+		height:320px;
+		display:block;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.three-cards-servicii {
+		width:26%;
+		height:320px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+	}
+
+	.cards-image-servicii {
+		margin-left:30%;
+		margin-top:8%;
+		width:40%;
+	}
+
+	.card-servicii-list {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+	}
+
+	.cards-space-servicii {
+		margin-right:4%;
+	}
+
+	.class-text-servicii-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-2 {
+		margin-top:15%; 
+		margin-left:25%; 
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-3 {
+		margin-top:15%; 
+		margin-left:28%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-4 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-5 {
+		margin-top:15%; 
+		margin-left:25%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-6 {
+		margin-top:15%; 
+		margin-left:15%; 
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-7 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-family: 'Open Sans';
+	}
+
+	.class-text-servicii-8 {
+		margin-top:15%; 
+		margin-left:20%;
+		font-family: 'Open Sans';
+	}
+
+	.card-row-specializari {
+		margin-left:39%;
+		display:block;
+		clear: both;
+	}
+
+	.card-row-after-specializari {
+		margin-left:13%;
+		display:block;
+		clear: both;
+		margin-top:530px;
+	}
+
+	.one-card-row-specializari {
+		width:37%;
+		height:500px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+		margin-right:4%;
+	}
+
+	.three-card-specializari {
+		width:26%;
+		height:500px;
+		float:left;
+		box-shadow: 0px 0px 10px 1px #696969;
+
+	}
+
+	.three-card-specializari-space {
+		margin-right:4%;
+	}
+
+	.card-text-specializari-1 {
+		margin-top:15%; 
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-1 {
+		margin-left:20%;
+		font-size:22px;
+		list-style-type:square;
+		margin-right:10%;
+	}
+
+	.card-text-specializari-2 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-2 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.card-text-specializari-3 {
+		margin-top:15%;
+		margin-left:15%;
+		font-size:22px;
+		width:70%;
+		font-family: 'Open Sans';
+	}
+
+	.card-list-specializari-3 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.card-text-specializari-4 {
+		margin-top:15%;
+		margin-left:15%;
+		font-family: 'Open Sans';
+		font-size:22px;
+		width:70%;
+	}
+
+	.card-list-specializari-4 {
+		margin-left:20%;
+		list-style-type:square;
+		margin-right:10%;
+		font-size:22px;
+	}
+
+	.footer-height {
+		height:300px;
 	}
 }
+
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
 @media only screen and (max-width: 640px) and (min-width: 480px) {
 	.wrap{

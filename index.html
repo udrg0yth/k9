@@ -5,12 +5,14 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE HTML>
-<html>
+<html lang="ro">
 <head>
-<title>Dresaj canin Bravo</title>
+<title>Scoala de dresaj Bravo | Dresaj canin | Dresaj caini | Clase de dresaj </title>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Dresaj caini in Ploiesti, cursuri de baza si avansat. Dresaj la clasa, sedinte individuale de dresaj. Servicii de pensiune canina, dresaj la domiciliu, plimbari, consultanta comportament, socializare pentru caini de paza, caini de vanatoare, caini de companie.">
+<meta name="keywords" content="dresaj, pensiune canina, dresaj caini ploiesti, dresaj canin de paza, dresaj caini de companie, dresaj caini de vanatoare, servicii dresaj, dresaj canin ploiesti, dresaj ploiestidresaj, dresaj caini, dresaj caini ploiesti, dresaj canin pret, dresaj canin ploiesti, dresaj ploiesti">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -45,6 +47,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					easing: 'snap',
 					// call the hover effect
 					onMixEnd: function() { $('#portfoliolist .portfolio').hover(
+						function () {
+							$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+							$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+						},
+						function () {
+							$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+							$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+						}		
+					);}
+				});	
+				$('#portfoliolist-history').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					// call the hover effect
+					onMixEnd: function() { $('#portfoliolist-history .portfolio').hover(
 						function () {
 							$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
 							$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
@@ -137,11 +156,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="wrap">
 		 	  <div class="menu">
 			   		<ul>
-						<li id="despre-noi-li"><a style="cursor:hand;cursor:pointer;">Despre noi</a></li>
-						<li id="galerie-li"><a style="cursor:hand;cursor:pointer;">Galerie</a></li>
-						<li id="scurt-istoric-li"><a style="cursor:hand;cursor:pointer;">Scurt istoric</a></li>
-						<li id="servicii-li"><a style="cursor:hand;cursor:pointer;">Specializari si servicii</a></li>
-						<li id="inscrieri-li"><a style="cursor:hand;cursor:pointer;">Inscrieri</a></li>
+						<li id="despre-noi-li"><a class="hand-pointer">Despre noi</a></li>
+						<li id="galerie-li"><a class="hand-pointer">Galerie</a></li>
+						<li id="scurt-istoric-li"><a class="hand-pointer">Scurt istoric</a></li>
+						<li id="servicii-li"><a class="hand-pointer">Specializari si servicii</a></li>
+						<li id="inscrieri-li"><a class="hand-pointer">Inscrieri</a></li>
 					</ul>
 					<div class="clear"></div>
 	   		  	</div>
@@ -152,7 +171,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="wrap">
 		    <div class="section group example">
 				<div class="col_1_of_header span_1_of_header">
-		   			<img src="images/dresaj/logo.png" style="background:transparent;border-style: none !important;" alt=""/>
+		   			<img src="images/dresaj/logo.png" class="logo-bgr" alt=""/>
  				</div>
 				<div class="clear"></div> 
 		    </div>
@@ -161,38 +180,38 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <div class="main">
 	<div class="content-middle">
-		<div class="wrap" style="width:70%; box-shadow: 0px 0px 30px 15px #DCDCDC;">
+		<div class="wrap wrap-panel">
 			<div id="despre-noi">
 			</div>
-			<div style="height:15vh;">
+			<div class="divider">
 			</div>
 			<div>
-				<div class="extra-wrap" style="width:75%;margin-bottom:8%;margin-left:12%;">
+				<div class="extra-wrap initial-about">
 	     			<div class="inside">
-	     				<span class="text1" style="margin-top:20%;">&nbsp;&nbsp;&nbsp;&nbsp;
+	     				<span class="text1">
+	     					<span class=halign></span>
 							Școala de dresaj canin BRAVO Ploiești, sub conducerea instructorului Cristian Enache, oferă atât cursuri de dresaj canin utilitar și de companie cât și servicii de pensiune canină. Cu un spațiu de 5000 de metrii pătrați, zonă de joacă și pistă cu obstacole, școala BRAVO asigură un mediu ideal pentru dezvoltare și învățare.
 							Având o experiență de 20 de ani în domeniul dresajului canin, Cristian Enache folosește metode eficiente și non-violente, bazate pe stimularea câinelui. După terminarea cursului de dresaj, stăpânului i se asigură toată îndrumarea necesară pentru a continua individual lucrul cu câinele.
 						</span>
 					</div>
 				</div>
-
 				 <span class="span_1_of_2" >
-				     <h4 style="margin-left:40%;font-size:45px;">Descriere</h4>
+				     <h4 class="htitle-descriere">Descriere</h4>
 				     	<div class="about-desc">
-			     			<div class="box-4 clearfix" style="width:75%;margin-left:12%;margin-bottom:5%;">
+			     			<div class="box-4 clearfix text-align-center">
 	  							<div class="extra-wrap">
 					     			<div class="inside">
 				     				<span class="text1">
-				     					<ul style="list-style-type: square !important;margin-left:2%;">
-				         					<li style="margin-bottom:4px;">poligon de 5000 metri patrati</li>
-											<li style="margin-bottom:4px;">spațiu de joacă</li>
-											<li style="margin-bottom:4px;">pistă cu obstacole </li>
-											<li style="margin-bottom:4px;">obstacol prin săritura - h 1m</li>
-											<li style="margin-bottom:4px;">palisadă (plan înclinat) - h 1,5m</li>
-											<li style="margin-bottom:4px;">bârnă – h 1,7m si L 4m</li>
-											<li style="margin-bottom:4px;">obstacol prin cățărare - h 2m</li>
-											<li style="margin-bottom:4px;">posibilitatea efectuarii in padure, de exercitii speciale de scotocire si retinere infractor</li>
-											<li style="margin-bottom:4px;">pensiune la padocuri individuale, de 12 m pătrați</li>
+				     					<ul class="square-list enum-descriere">
+				         					<li class="four-vspace">poligon de 5000 metri patrati</li>
+											<li class="four-vspace">spațiu de joacă</li>
+											<li class="four-vspace">pistă cu obstacole </li>
+											<li class="four-vspace">obstacol prin săritura - h 1m</li>
+											<li class="four-vspace">palisadă (plan înclinat) - h 1,5m</li>
+											<li class="four-vspace">bârnă – h 1,7m si L 4m</li>
+											<li class="four-vspace">obstacol prin cățărare - h 2m</li>
+											<li class="four-vspace">posibilitatea efectuarii in padure, de exercitii speciale de scotocire si retinere infractor</li>
+											<li class="four-vspace">pensiune la padocuri individuale, de 12 m pătrați</li>
 										</ul>
 									</span>
 								</div>
@@ -200,26 +219,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 				       </div>
 				     </span>
-				     <div style="margin-bottom:8%;height:1px;">
+				     <div class = "divider-space">
 				     </div>
      				<span class="span_1_of_2">
-				     <h4 style="margin-left:35%;font-size:45px;">Metode de dresaj</h4>
+				     <h4 class="htitle-metode-dresaj">Metode de dresaj</h4>
 				     	<div class="about-desc">
-				     		<div class="extra-wrap" style="width:75%;margin-left:12%;">
+				     		<div class="extra-wrap text-align-center">
 				     			<div class="inside">
-				     				<span class="text1">&nbsp;&nbsp;&nbsp;&nbsp;
-				          Metodele și tehnica formării reflexelor condiționate sunt non-violente, bazate pe stimularea câinelui și dezvoltarea interesului pentru lucru. Cazarea se face în boxe individuale de 12 metri pătrați. Câinele își formează un alt tip de relație cu fiecare persoană în parte. După de câinele termină perioadă de instruire, proprietarul acestuia, trebuie să participe efectiv la cel puțin 3 ședințe consecutive de antrenamant, pentru a prelua comenzile de la instructor și pentru a-l determina pe câine să treacă la tipul de relație șef-subordonat.  
+				     				<span class="text1">
+	     								<span class=halign></span>
+				         					 Metodele și tehnica formării reflexelor condiționate sunt non-violente, bazate pe stimularea câinelui și dezvoltarea interesului pentru lucru. Cazarea se face în boxe individuale de 12 metri pătrați. Câinele își formează un alt tip de relație cu fiecare persoană în parte. După de câinele termină perioadă de instruire, proprietarul acestuia, trebuie să participe efectiv la cel puțin 3 ședințe consecutive de antrenamant, pentru a prelua comenzile de la instructor și pentru a-l determina pe câine să treacă la tipul de relație șef-subordonat.  
 				          			</span>
 				          		</div>
 				          	</div>
-				          	<div class="box-4 clearfix" style="width:55%;margin-left:20%;margin-top:5%;">
-	  							<div class="extra-wrap" style="margin-top:1%;">
+				          	<div class="box-4 clearfix dresaj-atentie">
+	  							<div class="extra-wrap ">
 					     			<div class="inside">
-					     				<span class="text1" style="color:red;">&nbsp;&nbsp;&nbsp;&nbsp;
+					     				<span class="text1 alert">
+	     								<span class=halign></span>
 	  										Atenție ! 
 	  									</span><br><br>
-					     				<span class="text1">&nbsp;&nbsp;&nbsp;&nbsp;
-	 	Deprinderile dobândite în timpul cursului de dresaj, se pot stinge treptat în cazul în care ne sunt exersate periodic, sau se pot altera, în cazul nerespectării modului de lucru folosit de instructor. Nu pretindeți câinelui să lucreze în oraș, dacă nu s-au făcut ședințe de lucru în oraș (socializare, obișnuirea cu zgomotele străzii, deprinderea cu portul botniței, ignorarea anumitor stimuli provocatori -mingii, bicicliști, persoane în stare de ebrietate, copii alergând, alți câini, etc.)
+					     				<span class="text1">
+	     								<span class=halign></span>
+	 										Deprinderile dobândite în timpul cursului de dresaj, se pot stinge treptat în cazul în care ne sunt exersate periodic, sau se pot altera, în cazul nerespectării modului de lucru folosit de instructor. Nu pretindeți câinelui să lucreze în oraș, dacă nu s-au făcut ședințe de lucru în oraș (socializare, obișnuirea cu zgomotele străzii, deprinderea cu portul botniței, ignorarea anumitor stimuli provocatori -mingii, bicicliști, persoane în stare de ebrietate, copii alergând, alți câini, etc.)
 	 									</span>
 	 								</div>
 	 							</div>
@@ -228,456 +250,511 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				       </div>
 				     </span>
 
-				  <div class="clear"></div> 
+			  <div class="clear"></div> 
 			</div>
-			<div id="galerie" style="margin-top:5%">
+			<div id="galerie" class="divider-space-five">
 			</div>
 
-			<div style="margin-bottom:8%;height:1px;">
-				     </div>
+			<div class="divider-space"></div>
 			<div>
-					<h5 style="margin-left:35%;font-size:45px;"><span>Galeria</span> Noastra</h5>
-				   <div class="container" style="margin-top:5%;">
-					<ul style="margin-right:42%;" id="filters">
+			   <div class="heading4">	
+			  		<h5 class="htitle-galerie"><span>Galeria</span> Noastra</h5>
+			   </div>
+			   <div class="container divider-space-five">
+					<ul class="filters-center" id="filters">
 						<li ><span id="filter-image" class="filter active" data-filter="imgini">Imagini</span></li>
 						<li ><span id="filter-video" class="filter" data-filter="video">Video</span></li>
 					</ul>
 					<div class="clear"></div>
-				    <div id="portfoliolist" style="margin-left:20%;" class="">
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+				    <div id="portfoliolist" style="margin-left:20%;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">	
 								<div class="gallery">				
 									<a href="images/dresaj/full/0.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/0.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/0.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">	
 								<div class="gallery">				
 									<a href="images/dresaj/full/1.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/1.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/1.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>				
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/2.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/2.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/2.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div><br>
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">	
 								<div class="gallery">				
 									<a href="images/dresaj/full/3.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/3.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/3.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>				
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">	
 								<div class="gallery">				
 									<a href="images/dresaj/full/4.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/4.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/4.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">	
 								<div class="gallery">				
 									<a href="images/dresaj/full/5.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/5.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/5.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>			
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">	
 								<div class="gallery">				
 									<a href="images/dresaj/full/6.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/6.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/6.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/7.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/7.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/7.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
-						<div class="portfolio imgini mix_all" data-cat="imgini" style=" ">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">	
 								<div class="gallery">				
 									<a href="images/dresaj/full/8.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/8.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/8.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
 
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/9.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/9.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/9.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
 
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/10.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/10.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/10.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
 
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/11.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/11.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/11.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
 
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/12.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/12.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/12.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
 
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/13.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/13.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/13.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
 
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/14.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/14.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/14.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
 
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/15.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/15.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/15.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
 
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/17.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/17.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/17.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>																																							
 
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/18.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/18.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/18.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
 
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/19.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/19.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/19.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>	
 
-						<div class="portfolio imgini mix_all" data-cat="imgini" style="  display: none; opacity: 1;">
+						<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
 							<div class="portfolio-wrapper">
 								<div class="gallery">				
 									<a href="images/dresaj/full/21.jpg" class="flipLightBox-1">
-										<img src="images/dresaj/thumbs/21.jpg" alt="Image 2" style="top: 0px;">
+										<img src="images/dresaj/thumbs/21.jpg" alt="Image 2" class="image-fix">
 									</a>
 								</div>
 							</div>
 						</div>
 
-						<div class="portfolio video mix_all" data-cat="video" style="margin-left:2.5%;width:35%;height:25vh; display: none; opacity: 1;">
-							<iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/-XbnF8X9xVI" frameborder="0" allowfullscreen></iframe>
+						<div class="portfolio video mix_all image-hide" data-cat="video" style="margin-left:2.5%;width:35%;height:25vh; display: none; opacity: 1;">
+							<iframe class="full-size" src="https://www.youtube.com/embed/-XbnF8X9xVI" frameborder="0" allowfullscreen></iframe>
 						</div>	
-						<div class="portfolio video mix_all" data-cat="video" style=" width:35%;height:25vh;display: none; opacity: 1;">
-							<iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/k6gSuIZUkSI" frameborder="0" allowfullscreen></iframe>
+						<div class="portfolio video mix_all image-hide" data-cat="video" style=" width:35%;height:25vh;display: none; opacity: 1;">
+							<iframe class="full-size" src="https://www.youtube.com/embed/k6gSuIZUkSI" frameborder="0" allowfullscreen></iframe>
 						</div>																								
 				</div>
 			</div>		
    </div>
 	<span id="scurt-istoric"></span>
-   <div style="margin-top:5%">
-   </div>
-
-	<div style="margin-bottom:8%;height:1px;">
-		     </div>
+   <div class="divider-space-five"></div>
+	<div class="divider-space"></div>
    <div>
-   		<span class="span_1_of_2">
-				   <h4 style="margin-left:35%;font-size:45px;">Scurt istoric</h4>
-				         <ul class="grid_no">
-						  	<li class="grid_1">
-							  	<div class="box-4 clearfix" style="width:70%;margin-left:14%;">
-		                            <div class="extra-wrap">
-		                                <div class="inside">
-		                                     <span class="text1">
-		                                     	În anul 1995 s-a înființat "Clubul Câinilor Utilitari" care funcționa în colaborare cu Asociația Chinologică Ploiești, având ca instructor de dresaj pe domnul Cristian Enache. Clubul era reprezentat de către o echipă de dresaj formată din șase membri ce aveau un scop comun, de a promova imaginea câinelui de lucru și a-i scoate în evidență aptitudinile native, utile omului. Pentru aceasta se organizau demonstrații de dresaj în echipă în deschiderea expozițiilor de frumusețe organizate de Asociația Chinologică.
-												</span>
-		                                    <span class="arrow"></span>
-		                                </div>
-		                            </div>
-		                         </div>
-							     <div class="clear"></div> 
-      						 </li>
-      						 <li class="grid_1">
-							  	<div class="box-4 clearfix" style="width:70%;margin-left:14%;">
-		                            <div class="extra-wrap">
-		                                <div class="inside">
-		                                     <span class="text1">
-      												În anul 1996, datorită pasiunii și a performanțelor obținute în dresaj, echipa a fost invitată Antena 1.
-												</span>
-		                                    <span class="arrow"></span>
-		                                </div>
-		                            </div>
-		                         </div>
-							     <div class="clear"></div> 
-      						 </li>
-      						 <li class="grid_1">
-							  	<div class="box-4 clearfix" style="width:70%;margin-left:14%;">
-		                            <div class="extra-wrap">
-		                                <div class="inside">
-		                                     <span class="text1">
-		                                     	În anul 1997 echipa a fost din nou televizată, de data aceasta cu probe de dresaj mai spectaculoase:
-		                                     		<ul style="list-style-type: square;margin-left:5%;">
-														<li>sărituri peste obstacole foarte înalte </li>
-														<li>lansări după un infractor înarmat</li>
-														<li>lansări după mai mulți infractori</li>
-														<li>paza unor obiecte</li>
-														<li>supravegherea infractorului</li>
-														<li>descoperirea unei persoane ascunse în teren acoperit, prin preluarea urmei de miros</li>
-													</ul>
-												</span>
-		                                    <span class="arrow"></span>
-		                                </div>
-		                            </div>
-		                         </div>
-							     <div class="clear"></div> 
-      						 </li>
-      						 <li class="grid_1">
-							  	<div class="box-4 clearfix" style="width:70%;margin-left:14%;">
-		                            <div class="extra-wrap">
-		                                <div class="inside">
-		                                     <span class="text1">În anul 1999 instructorul Cristian Enache este invitat să facă instrucția câinilor din poliția de frontieră Kuweit.</span>
-		                                    <span class="arrow"></span>
-		                                </div>
-		                            </div>
-		                         </div>
-							     <div class="clear"></div> 
-      						 </li>
-     				<div id="servicii">
+			<div class="heading4">
+		    	<h5 class="htitle-istoric">Scurt istoric</h5>
+		    </div>
+	         <ul class="grid_no">
+			  	<li class="grid_1">
+				  	<div class="box-4 clearfix inscrieri-bubble">
+                        <div class="extra-wrap">
+                            <div class="inside">
+                                 <span class="text1">
+                                 	În anul 1995 s-a înființat "Clubul Câinilor Utilitari" care funcționa în colaborare cu Asociația Chinologică Ploiești, având ca instructor de dresaj pe domnul Cristian Enache. Clubul era reprezentat de către o echipă de dresaj formată din șase membri ce aveau un scop comun, de a promova imaginea câinelui de lucru și a-i scoate în evidență aptitudinile native, utile omului. Pentru aceasta se organizau demonstrații de dresaj în echipă în deschiderea expozițiilor de frumusețe organizate de Asociația Chinologică.
+									</span>
+                                <span class="arrow"></span>
+                            </div>
+                        </div>
+                     </div>
+				     <div class="clear"></div> 
+					 </li>
+					 <li class="grid_1">
+				  	<div class="box-4 clearfix inscrieri-bubble">
+                        <div class="extra-wrap">
+                            <div class="inside">
+                                 <span class="text1">
+											În anul 1996, datorită pasiunii și a performanțelor obținute în dresaj, echipa a fost invitată Antena 1.
+									</span>
+                                <span class="arrow"></span>
+                            </div>
+                        </div>
+                     </div>
+				     <div class="clear"></div> 
+					 </li>
+					 <li class="grid_1">
+				  	<div class="box-4 clearfix inscrieri-bubble">
+                        <div class="extra-wrap">
+                            <div class="inside">
+                                 <span class="text1">
+                                 	În anul 1997 echipa a fost din nou televizată, de data aceasta cu probe de dresaj mai spectaculoase:
+                                 		<ul style="list-style-type: square;margin-left:5%;">
+											<li>sărituri peste obstacole foarte înalte </li>
+											<li>lansări după un infractor înarmat</li>
+											<li>lansări după mai mulți infractori</li>
+											<li>paza unor obiecte</li>
+											<li>supravegherea infractorului</li>
+											<li>descoperirea unei persoane ascunse în teren acoperit, prin preluarea urmei de miros</li>
+										</ul>
+									</span>
+                                <span class="arrow"></span>
+                            </div>
+                        </div>
+                     </div>
+				     <div class="clear"></div> 
+					 </li>
+					 <li class="grid_1">
+				  	<div class="box-4 clearfix inscrieri-bubble">
+                        <div class="extra-wrap">
+                            <div class="inside">
+                                 <span class="text1">În anul 1999 instructorul Cristian Enache este invitat să facă instrucția câinilor din poliția de frontieră Kuweit.</span>
+                                <span class="arrow"></span>
+                            </div>
+                        </div>
+                     </div>
+				     <div class="clear"></div> 
+					 </li>
+					<div id="servicii">
+					</div>
+					 <li class="grid_1">
+					 	<div class="box-4 clearfix inscrieri-bubble">
+                        <div class="extra-wrap">
+                            <div class="inside">
+                                 <span class="text1">În 2001 se infiinteaza școala particulară de dresaj canin BRAVO sub conducerea domnului Cristian Enache.</span>
+                                <span class="arrow"></span>
+                            </div>
+                        </div>
+                     </div>
+				     <div class="clear"></div> 
+					 </li>
+				 </ul>
+		  <div class="clear"></div> 
    </div>
-      						 <li class="grid_1">
-      						 	<div class="box-4 clearfix" style="width:70%;margin-left:14%;">
-		                            <div class="extra-wrap">
-		                                <div class="inside">
-		                                     <span class="text1">În 2001 se infiinteaza școala particulară de dresaj canin BRAVO sub conducerea domnului Cristian Enache.</span>
-		                                    <span class="arrow"></span>
-		                                </div>
-		                            </div>
-		                         </div>
-							     <div class="clear"></div> 
-      						 </li>
-     					 </ul>
-				     </span>
-				  <div class="clear"></div> 
-   </div>
-   
-   <div style="margin-bottom:8%;height:1px;">
-				     </div>
-   <div>
-   				<div class="heading4">
-				 	<h2 style="margin-left:43%;font-size:45px;">Servicii</h2>
-				</div>
-			     <div class="section group" style="margin-top:5%;">
-			     	<div style="margin-left:27.5%;display:block;clear: both; ">
-				     	<div style="width:30%;height:300px;float:left;box-shadow: 0px 0px 10px 1px #696969;margin-right:4%;">
-				     		<img style="margin-left:30%;margin-top:8%;width:40%;" src="/images/dresaj/6.png"/>
-				     		<p class="text1" style="margin-top:15%; margin-left:15%;font-family: 'Open Sans';">Pensiune și grădiniță canină 
-				     		 </p>
-				     		 <ul style="margin-left:20%;list-style-type:square;margin-right:10%;"><li>cazare în boxe individuale de 12 m pătrați</li></ul>
-				     	</div>
-				     	<div style="width:30%;height:300px;float:left;box-shadow: 0px 0px 10px 1px #696969;">
-				     		<img style="margin-left:30%;margin-top:8%;width:40%;" src="/images/dresaj/1.png/">
-				     		<p class="text1" style="margin-top:15%; margin-left:25%;font-family: 'Open Sans';">Dresaj la domiciliu</p>
-				     	</div>
-			     	</div>
-
-			     	<div style="height:1px;">
-			     	</div>
-			     	<div style="margin-left:13%;display:block;clear: both;margin-top:380px;">
-				     	<div style="width:26%;height:300px;float:left;box-shadow: 0px 0px 10px 1px #696969;margin-right:4%;">
-				     		<img style="margin-left:30%;margin-top:8%;width:40%;" src="/images/dresaj/2.png"/>
-				     		<p class="text1" style="margin-top:15%; margin-left:28%;font-family: 'Open Sans';">Plimbări zilnice</p>
-				     	</div>
-				     	<div style="width:26%;height:300px;float:left;box-shadow: 0px 0px 10px 1px #696969;margin-right:4%;">
-				     		<img style="margin-left:30%;margin-top:8%;width:40%;" src="/images/dresaj/3.png/">
-				     		<p class="text1" style="margin-top:15%; margin-left:20%;font-family: 'Open Sans';">Socializare și predresaj</p>
-				     	</div>
-				     	<div style="width:26%;height:300px;float:left;box-shadow: 0px 0px 10px 1px #696969;margin-right:4%;">
-				     		<img style="margin-left:30%;margin-top:8%;width:40%;" src="/images/dresaj/4.png/">
-				     		<p class="text1" style="margin-top:15%; margin-left:25%;font-family: 'Open Sans';">Alergare la bicicletă</p>
-				     	</div>
-				    </div>
-
-			     	<div style="height:1px;">
-			     	</div>
-			     	<div style="margin-left:13%;display:block;clear: both;margin-top:380px;">
-				     	<div style="width:26%;height:300px;float:left;box-shadow: 0px 0px 10px 1px #696969;margin-right:4%;">
-				     		<img style="margin-left:30%;margin-top:8%;width:40%;" src="/images/dresaj/5.png/">
-				     		<p class="text1" style="margin-top:15%; margin-left:15%;font-family: 'Open Sans';">Disciplină în condiții de trafic urban</p>
-				     	</div>
-				     	<div style="width:26%;height:300px;float:left;box-shadow: 0px 0px 10px 1px #696969;margin-right:4%;">
-				     		<img style="margin-left:30%;margin-top:8%;width:40%;" src="/images/dresaj/7.png/">
-				     		<p class="text1" style="margin-top:15%; margin-left:20%;font-family: 'Open Sans';">Consultanta achizitionare crestere si monta</p>
-				     	</div>
-				     	<div style="width:26%;height:300px;float:left;box-shadow: 0px 0px 10px 1px #696969;margin-right:4%;">
-				     		<img style="margin-left:30%;margin-top:8%;width:40%;" src="/images/dresaj/8.png/">
-				     		<p class="text1" style="margin-top:15%; margin-left:20%;font-family: 'Open Sans';">Consultanta probleme comportamentale</p>
-				     	</div>
-				     </div>
-					<div class="clear"></div> 
-		   		</div>
-		   		<div class="heading4">
-				 	<h2 style="margin-left:40%;font-size:45px;margin-top:15%;">Specializari</h2>
-				</div>
-				<div class="box-4 clearfix" style="width:75%;margin-left:12%;">
-					<div class="extra-wrap">
-		     			<div class="inside">
-	     				<span class="text1">
-	     					<ul style="list-style-type: square !important;margin-left:2%;">
-	         					<li style="margin-bottom:4px;">Dresaj elementar de disciplinizare  – durata cursului - o lună; probă de lucru în teren</li>
-								<li style="margin-bottom:4px;">Câini de însoțire -durata cursului - 3 luni; proba de lucru în trafic urban</li>
-								<li style="margin-bottom:4px;">Câini de pază –  agresivitate teritorială și la comandă; refuz de hrană; durata cursului - 2 luni; probă de lucru poligon</li>
-								<li style="margin-bottom:4px;">Câini de vânatoare  - pentru vânat cu pene; durata cursului - 3 luni; proba lucru in teren</li>
-							</ul>
-						</span>
-
-				<span id="inscrieri">
-   </span>
+   <div id="portfoliolist-history" class="galerie-istoric portfoliolist">
+			<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
+				<div class="portfolio-wrapper">	
+					<div class="gallery">				
+						<a href="images/dresaj/istoric/full/2.jpg" class="flipLightBox-1">
+							<img src="images/dresaj/istoric/thumbs/2.jpg" alt="Image 2" class="image-fix">
+						</a>
 					</div>
 				</div>
+			</div>	
+			<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
+				<div class="portfolio-wrapper">	
+					<div class="gallery">				
+						<a href="images/dresaj/istoric/full/3.jpg" class="flipLightBox-1">
+							<img src="images/dresaj/istoric/thumbs/3.jpg" alt="Image 2" class="image-fix">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio imgini mix_all image-hide" data-cat="imgini">
+				<div class="portfolio-wrapper">	
+					<div class="gallery">				
+						<a href="images/dresaj/istoric/full/6.jpg" class="flipLightBox-1">
+							<img src="images/dresaj/istoric/thumbs/6.jpg" alt="Image 2" class="image-fix">
+						</a>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="divider-space"></div>
+   <div>
+		<div class="heading4">
+	 		<h5 class="htitle-servicii">Servicii</h5>
+		</div>
+	     <div class="section group divider-space-five">
+	     	<div class="card-row-servicii">
+		     	<div class="two-cards-servicii cards-space-servicii">
+		     		<img class="cards-image-servicii" src="/images/dresaj/6.png"/>
+		     		<p class="text1 class-text-servicii-1">Pensiune și grădiniță canină </p>
+		     		 <ul class="card-servicii-list"><li>cazare în boxe individuale de 12 m pătrați</li></ul>
+		     	</div>
+		     	<div class="two-cards-servicii">
+		     		<img class="cards-image-servicii" src="/images/dresaj/1.png/">
+		     		<p class="text1 class-text-servicii-2">Dresaj la domiciliu</p>
+		     	</div>
+	     	</div>
+
+	     	<div style="height:1px;">
+	     	</div>
+	     	<div class="three-card-row-servicii">
+		     	<div class="three-cards-servicii cards-space-servicii">
+		     		<img class="cards-image-servicii" src="/images/dresaj/2.png"/>
+		     		<p class="text1 class-text-servicii-3">Plimbări zilnice</p>
+		     	</div>
+		     	<div class="three-cards-servicii cards-space-servicii">
+		     		<img class="cards-image-servicii" src="/images/dresaj/3.png/">
+		     		<p class="text1 class-text-servicii-4">Socializare și predresaj</p>
+		     	</div>
+		     	<div class="three-cards-servicii">
+		     		<img class="cards-image-servicii" src="/images/dresaj/4.png/">
+		     		<p class="text1 class-text-servicii-5">Alergare la bicicletă</p>
+		     	</div>
+		    </div>
+
+	     	<div style="height:1px;">
+	     	</div>
+	     	<div class="three-card-row-servicii">
+		     	<div class="three-cards-servicii cards-space-servicii">
+		     		<img class="cards-image-servicii" src="/images/dresaj/5.png/">
+		     		<p class="text1 class-text-servicii-6">Disciplină în condiții de trafic urban</p>
+		     	</div>
+		     	<div class="three-cards-servicii cards-space-servicii">
+		     		<img class="cards-image-servicii" src="/images/dresaj/7.png/">
+		     		<p class="text1 class-text-servicii-7">Consultanta achizitionare crestere si monta</p>
+		     	</div>
+		     	<div class="three-cards-servicii">
+		     		<img class="cards-image-servicii" src="/images/dresaj/8.png/">
+		     		<p class="text1 class-text-servicii-8">Consultanta probleme comportamentale</p>
+		     	</div>
+		     </div>
+			<div class="clear"></div> 
+   		</div>
+	  </div>
+	  <div style="margin-top:10%;">
+	   		<div class="heading4 divider-space-five">
+			 	<h2 class="htitle-specializari divider-space-five">Specializari</h2>
+			</div>
+			<div class="section group divider-space-five">
+		     	<div class="card-row-specializari">
+			     	<div class="one-card-row-specializari">
+			     		<img style="width:100%;" src="/images/dresaj/specializari/disciplina.jpg"/>
+			     		<p class="text1 card-text-specializari-1">Dresaj elementar de disciplinizare 
+			     		 </p>
+			     		 <ul class="card-list-specializari-1">
+			     		 	<li>durata cursului: 1 lună</li>
+			     		 	<li>probă de lucru în teren</li>
+			     		 </ul>
+			     	</div>
+			    </div>
+	     		<div style="height:1px;"></div>
+			    <div class="card-row-after-specializari">
+			     	<div class="three-card-specializari three-card-specializari-space">
+			     		<img style="width:100%;" src="/images/dresaj/specializari/insotire.jpg"/>
+			     		<p class="text1 card-text-specializari-2">Câini de însoțire
+			     		 </p>
+			     		 <ul class="card-list-specializari-2">
+			     		 	<li>durata cursului: 3 luni</li>
+			     		 	<li>proba de lucru în trafic urban</li>
+			     		 </ul>
+			     	</div>
+			     	<div class="three-card-specializari three-card-specializari-space">
+			     		<img style="width:100%;" src="/images/dresaj/specializari/paza.jpg"/>
+			     		<p class="text1 card-text-specializari-3">Câini de pază
+			     		 </p>
+			     		 <ul class="card-list-specializari-3">
+			     		 	<li>agresivitate teritorială și la comandă</li>
+			     		 	<li>refuz de hrană</li>
+			     		 	<li>durata cursului: 2 luni</li>
+			     		 	<li>probă de lucru poligon</li>
+			     		 </ul>
+			     	</div>
+			     	<div class="three-card-specializari three-card-specializari-space">
+			     		<img style="width:100%;" src="/images/dresaj/specializari/hunting-dog.jpg"/>
+			     		<p class="text1 card-text-specializari-4">Câini de vânatoare
+			     		 </p>
+			     		 <ul class="card-list-specializari-4">
+			     		 	<li>pentru vânat cu pene</li>
+			     		 	<li>durata cursului: 3 luni</li>
+			     		 	<li>proba lucru in teren</li>
+			     		 </ul>
+			     	</div>
+			    </div>
+				<div class="clear"></div> 
+		    </div>
+		<span id="inscrieri"></span>
+	</div>
+   <div class="divider-space-five">
    </div>
-   <div style="margin-top:5%">
-   </div>
-   <div style="margin-bottom:8%;height:1px;">
-				     </div>
+	<div class="divider-space"></div>
    <div>
    		<div class="about-top">
-     				<span class="span_1_of_2">
-				     <h4 style="margin-left:43%;font-size:45px;">Inscrieri</h4>
-				     	<div class="about-desc">
-				     		<div class="extra-wrap" style="margin-left:12%;width:80%;">
+			<span class="span_1_of_2">
+		      <h4 class="htitle-inscrieri">Inscrieri</h4>
+		     	<div class="about-desc">
+				     		<div class="extra-wrap inscrieri-text">
 				     			<div class="inside">
-				     				<span class="text1">&nbsp;&nbsp;&nbsp;&nbsp;
-				       Școala de dresaj câini utilitari "BRAVO" Ploiești (km 7, Zona METRO Ploiești) sub conducerea lui Enache Cristian primește înscrieri atât de la persoane fizice, cât și de la persoane juridice (pe bază de contract prestări servicii). 
- Pentru începerea cursului de înstrucție, cățelul trebuie să fi împlinit vârsta de: 10 luni pentru câini de pază,însoțire și 6 luni pentru câini de companie, vânătoare.   
+				     				<span class="text1">
+	     								<span class=halign></span>
+				      					 	Școala de dresaj câini utilitari "BRAVO" Ploiești (km 7, Zona METRO Ploiești) sub conducerea lui Enache Cristian primește înscrieri atât de la persoane fizice, cât și de la persoane juridice (pe bază de contract prestări servicii). 
+ 											Pentru începerea cursului de înstrucție, cățelul trebuie să fi împlinit vârsta de: 10 luni pentru câini de pază,însoțire și 6 luni pentru câini de companie, vânătoare.   
  									</span>
  								</div>
  						</div>
-
-				       </div>
-				     </span>
+		       	</div>
+		     </span>
 				    
-				  <div class="clear"></div> 
-		    </div>
-				  <div class="clear"></div>
-
-		 	    <div class="contact-left" style="margin-left:12%;margin-bottom:10%;">
-						<div class="map">
-						<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=44.9725619%2C25.9533495&key=AIzaSyAPSjofRHjTYM9MiaxYnyl-UGLIE1bbHa4" allowfullscreen></iframe>
+		  <div class="clear"></div> 
+	    </div>
+ 	    <div class="contact-left" style="margin-left:12%;">
+			<div class="map">
+				<iframe class="maps" frameborder="0" scrolling="no" src="https://www.google.com/maps/embed/v1/place?q=44.9725619%2C25.9533495&key=AIzaSyAPSjofRHjTYM9MiaxYnyl-UGLIE1bbHa4" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="contact-right" style="width:50%;margin-top:2%;">
+			<div class="contact-left-grid" style="margin-bottom:2% !important;">
+				<div class="contact-left-grid-pic">
+					<img  src="images/dresaj/1.png" class="icons-inscrieri" title="home">
+				</div>
+				<div class="contact-left-grid-info">
+					<p class="enum-inscrieri">DN1 Ploiesti KM 7
+						(langa METRO Ploiesti)</p>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			<div class="contact-left-grid" style="margin-bottom:2% !important;">
+				<div class="contact-left-grid-pic">
+					<img  src="images/dresaj/phone.png" class="icons-inscrieri" title="phone">
+				</div>
+				<div class="contact-left-grid-info">
+					<p class="enum-inscrieri">+40745888151</p>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			<div class="contact-left-grid" style="margin-bottom:2% !important;">
+				<div class="contact-left-grid-pic">
+					<img  src="images/dresaj/email.png" class="icons-inscrieri" title="email">
+				</div>
+				<div class="contact-left-grid-info">
+					<span class="enum-inscrieri">dresajploiesti@yahoo.com</span>
+				</div> 
+				<div class="clear"> </div>
+			</div>
+			<div class="contact-left-grid" style="margin-bottom:2% !important;">
+				<a target="_blank" href="http://www.facebook.com/scoaladresajbravo">
+					<div class="contact-left-grid-pic">
+						<img src="images/dresaj/fb.png" class="icons-inscrieri" title="facebook">
 					</div>
+					<div class="contact-left-grid-info">
+						<span class="enum-inscrieri">Scoala de dresaj canin BRAVO</span>
 					</div>
-					<div class="contact-right" style="width:50%;margin-top:2%;">
-						<div class="contact-left-grid" style="margin-bottom:2% !important;">
-							<div class="contact-left-grid-pic">
-								<img  src="images/dresaj/home-icon.png" style="margin-top:-10px !important;" title="home">
-							</div>
-							<div class="contact-left-grid-info">
-								<h5>DN1 Ploiesti KM 7
-									(langa METRO Ploiesti)</h5>
-							</div>
-							<div class="clear"> </div>
-						</div>
-						<div class="contact-left-grid" style="margin-bottom:2% !important;">
-							<div class="contact-left-grid-pic">
-								<img  src="images/dresaj/phone-icon.png" style="margin-top:-10px;" title="phone">
-							</div>
-							<div class="contact-left-grid-info">
-								<h5>+40745888151</h5>
-							</div>
-							<div class="clear"> </div>
-						</div>
-						<div class="contact-left-grid" style="margin-bottom:2% !important;">
-							<div class="contact-left-grid-pic">
-								<img  src="images/dresaj/email-icon.png" style="margin-top:-10px;" title="email">
-							</div>
-							<div class="contact-left-grid-info">
-								<span style="color:#000;font-size:1.2em">dresajploiesti@yahoo.com</span>
-							</div>
-							<div class="clear"> </div>
-						</div>
-						<div class="contact-left-grid" style="margin-bottom:2% !important;">
-							<a target="_blank" href="http://www.facebook.com/scoaladresajbravo">
-								<div class="contact-left-grid-pic">
-									<img src="images/fb.png" style="margin-top:-10px;" title="facebook">
-								</div>
-								<div class="contact-left-grid-info">
-									<span>Scoala de dresaj canin BRAVO</span>
-								</div>
-							</a>
-							<div class="clear"> </div>
-						</div>
-					</div>
-					<div class="clear"> </div>
+				</a>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<div class="clear"> </div>
    </div>
 	</div>
    </div>
@@ -686,7 +763,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <div class="footer">
 	<div class="wrap">
 		 <div class="section group">
-				<div class="col_1_of_3 span_1_of_3" style="height:300px;">
+				<div class="col_1_of_3 span_1_of_3 footer-height">
 				</div>
 				<div class="clear"></div> 
 	      </div>
