@@ -303,7 +303,7 @@ body{
 
 .halign {
 	display:inline-block;
-	width:7%;
+	width:4%;
 }
 
 .square-list {
@@ -350,6 +350,18 @@ body{
 		width:70%; box-shadow: 0px 0px 30px 15px #DCDCDC;
 	}
 
+	.header-bottom {
+		height:500px !important;
+	}
+
+	.logo-pos {
+		margin-top: -100px;
+	}
+
+	.top-text {
+		margin-top: -150px;
+	}
+
 	.initial-about {
 		width:78%;
 		margin-top:10%;
@@ -369,7 +381,7 @@ body{
 	}
 
 	.htitle-galerie {
-		margin-left:28% !important;
+		margin-left:32% !important;
 		font-size:100px !important;
 	}
 
@@ -427,7 +439,7 @@ body{
 	.dresaj-atentie {
 		width:55%;
 		margin-left:20%;
-		margin-top:5%;
+		margin-top:3%;
 	}
 
 	.inscrieri-text {
@@ -687,9 +699,20 @@ body{
 	.initial-about {
 		width:78%;
 		margin-top:10%;
-		margin-bottom:8%;
 		margin-left:12%;
 		font-size: 22px;
+	}
+
+	.header-bottom {
+		height:350px !important;
+	}
+
+	.logo-pos {
+		margin-top: -100px;
+	}
+
+	.top-text {
+		margin-top: -150px;
 	}
 
 	.htitle-descriere {
@@ -756,7 +779,7 @@ body{
 	.dresaj-atentie {
 		width:55%;
 		margin-left:20%;
-		margin-top:5%;
+		margin-top:3%;
 	}
 
 	.galerie-istoric {
@@ -1021,9 +1044,20 @@ body{
 	.initial-about {
 		width:78%;
 		margin-top:10%;
-		margin-bottom:8%;
 		margin-left:12%;
 		font-size: 22px;
+	}
+
+	.header-bottom {
+		height:290px !important;
+	}
+
+	.logo-pos {
+		margin-top: -100px;
+	}
+
+	.top-text {
+		margin-top: -120px;
 	}
 
 	.htitle-descriere {
@@ -1356,9 +1390,20 @@ body{
 	.initial-about {
 		width:78%;
 		margin-top:10%;
-		margin-bottom:8%;
 		margin-left:12%;
 		font-size: 22px;
+	}
+
+	.header-bottom {
+		height:210px !important;
+	}
+
+	.logo-pos {
+		margin-top: -100px;
+	}
+
+	.top-text {
+		margin-top: -100px;
 	}
 
 	.htitle-descriere {
@@ -1372,7 +1417,7 @@ body{
 	}
 
 	.htitle-galerie {
-		margin-left:32.5% !important;
+		margin-left:31% !important;
 		font-size:60px !important;
 	}
 
@@ -1690,10 +1735,22 @@ body{
 	.initial-about {
 		width:78%;
 		margin-top:10%;
-		margin-bottom:8%;
 		margin-left:12%;
 		font-size: 24px;
 	}
+
+	.header-bottom {
+		height:210px !important;
+	}
+
+	.logo-pos {
+		margin-top: -70px;
+	}
+
+	.top-text {
+		margin-top: -70px;
+	}
+
 
 	.htitle-descriere {
 		margin-left:37% !important;
@@ -1706,7 +1763,7 @@ body{
 	}
 
 	.htitle-galerie {
-		margin-left:30% !important;
+		margin-left:29.5% !important;
 		font-size:60px !important;
 	}
 
@@ -2025,9 +2082,20 @@ body{
 	.initial-about {
 		width:78%;
 		margin-top:10%;
-		margin-bottom:8%;
 		margin-left:12%;
 		font-size: 22px;
+	}
+
+	.header-bottom {
+		height:180px !important;
+	}
+
+	.logo-pos {
+		margin-top: -70px;
+	}
+
+	.top-text {
+		margin-top: -70px;
 	}
 
 	.htitle-descriere {
@@ -2359,9 +2427,20 @@ body{
 	.initial-about {
 		width:78%;
 		margin-top:10%;
-		margin-bottom:8%;
 		margin-left:12%;
 		font-size: 22px;
+	}
+
+	.header-bottom {
+		height:180px !important;
+	}
+
+	.logo-pos {
+		margin-top: -70px;
+	}
+
+	.top-text {
+		margin-top: -70px;
 	}
 
 	.htitle-descriere {
@@ -2385,12 +2464,12 @@ body{
 	}
 
 	.htitle-servicii {
-		margin-left:39% !important;
+		margin-left:38% !important;
 		font-size:60px !important;
 	}
 
 	.htitle-specializari {
-		margin-left:33% !important;
+		margin-left:32% !important;
 		font-size:60px !important;
 	}
 
@@ -2694,9 +2773,20 @@ body{
 	.initial-about {
 		width:78%;
 		margin-top:10%;
-		margin-bottom:8%;
 		margin-left:12%;
 		font-size: 22px;
+	}
+
+	.header-bottom {
+		height:180px !important;
+	}
+
+	.logo-pos {
+		margin-top: -70px;
+	}
+
+	.top-text {
+		margin-top: -70px;
 	}
 
 	.htitle-descriere {
@@ -3024,9 +3114,20 @@ body{
 	.initial-about {
 		width:78%;
 		margin-top:10%;
-		margin-bottom:8%;
 		margin-left:12%;
 		font-size: 22px;
+	}
+
+	.header-bottom {
+		height:150px !important;
+	}
+
+	.logo-pos {
+		margin-top: -70px;
+	}
+
+	.top-text {
+		margin-top: -70px;
 	}
 
 	.htitle-descriere {
@@ -3355,9 +3456,20 @@ body{
 	.initial-about {
 		width:78%;
 		margin-top:10%;
-		margin-bottom:8%;
 		margin-left:12%;
 		font-size: 22px;
+	}
+
+	.header-bottom {
+		height: 250px !important;
+	}
+
+	.logo-pos {
+		margin-top: 50px;
+	}
+
+	.top-text {
+		margin-top: -70px;
 	}
 
 	.htitle-descriere {
@@ -4238,7 +4350,7 @@ span.text1{
 	font-size: 1.1em;
 }
 .about-desc{
-	padding-top:5%;
+	padding-top:3%;
 }
 p.desc{
 	margin-bottom:15px;
