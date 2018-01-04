@@ -7,12 +7,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html lang="ro">
 <head>
-<title>Scoala de dresaj Bravo | Dresaj canin Ploiesti | Dresaj caini Ploiesti | Clase de dresaj </title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<title>Scoala de dresaj Bravo | Dresaj canin Ploiesti | Dresaj caini Ploiesti | Dresaj Ploiesti | Clase de dresaj </title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ro">
 <meta name="description" content="Școala de dresaj canin BRAVO ploiesti instruiește câini de companie, însoțire, pază, protecție și vânătoare. De asemenea, oferim servicii de predresaj, pensiune canină, consultanță pentru devieri comportamentale, dresaj la domiciliu, plimbări zilnice și disciplinizare în condiții de trafic urban, scoala de dresaj ploiesti, dresaj ploiesti, dresaj canin ploiesti.">
 <meta name="keywords" content=" pensiune canina ploiesti, dresaj canin de paza, dresaj caini de companie, dresaj caini de vanatoare, servicii dresaj, dresaj canin ploiesti, dresaj ploiestidresaj, dresaj caini, dresaj caini ploiesti, dresaj canin pret, dresaj canin ploiesti, dresaj ploiesti">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -28,127 +31,125 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--light box-->
 <script src="js/superfish.js"></script>
 <script type="text/javascript" src="js/jquery.lightbox.js"></script>
-<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen">
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-	<script type="text/javascript">
-		$(function() {
-			$('.gallery a').lightBox();
-		});
-   </script>
-   <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-	<script type="text/javascript" src="js/noframework.waypoints.js"></script>
-	<script type="text/javascript">
-			$( document ).ready(function () {
-				var ids = ['prezentare-li', 'despre-noi-li', 'galerie-li', 'scurt-istoric-li', 'servicii-li', 'inscrieri-li'];
-				$('#portfoliolist').mixitup({
-					targetSelector: '.portfolio',
-					filterSelector: '.filter',
-					effects: ['fade'],
-					easing: 'snap',
-					// call the hover effect
-					onMixEnd: function() { $('#portfoliolist .portfolio').hover(
-						function () {
-							$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-							$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-						},
-						function () {
-							$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-							$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-						}		
-					);}
-				});	
-				$('#portfoliolist-history').mixitup({
-					targetSelector: '.portfolio',
-					filterSelector: '.filter',
-					effects: ['fade'],
-					easing: 'snap',
-					// call the hover effect
-					onMixEnd: function() { $('#portfoliolist-history .portfolio').hover(
-						function () {
-							$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-							$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-						},
-						function () {
-							$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-							$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-						}		
-					);}
-				});	
-				setTimeout(function() {
-					console.log(2);
-					$('#filter-image').trigger('click');
-				}, 2000);
-				var despreNoiHandler = function() {
-				  	for(var id of ids) {
-				  		$('#' + id).removeClass('active');
-				  	}
-				  	$('#despre-noi-li').addClass('active');
-				}, galerieHandler = function() {
-				  	for(var id of ids) {
-				  		$('#' + id).removeClass('active');
-				  	}
-				  	$('#galerie-li').addClass('active');
-				}, scurtIstoricHandler = function() {
-				  	for(var id of ids) {
-				  		$('#' + id).removeClass('active');
-				  	}
-				  	$('#scurt-istoric-li').addClass('active');
-				}, serviciiHandler = function() {
-				  	for(var id of ids) {
-				  		$('#' + id).removeClass('active');
-				  	}
-				  	$('#servicii-li').addClass('active');
-				}, inscrieriHandler = function() {
-				  	for(var id of ids) {
-				  		$('#' + id).removeClass('active');
-				  	}
-				  	$('#inscrieri-li').addClass('active');
-				};
-				$('#despre-noi').ready(function() {
-					var waypointGalerie = new Waypoint({
-					  element: document.getElementById('despre-noi'),
-					  handler: despreNoiHandler
-					});
-					$("#despre-noi-li").click(function() {$('html, body').animate({ scrollTop: $('#despre-noi').offset().top }, 1000);
-						setTimeout(despreNoiHandler, 1000);})
+<script type="text/javascript">
+	$(function() {
+		$('.gallery a').lightBox();
+	});
+</script>
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script type="text/javascript" src="js/noframework.waypoints.js"></script>
+<script type="text/javascript">
+		$( document ).ready(function () {
+			var ids = ['prezentare-li', 'despre-noi-li', 'galerie-li', 'scurt-istoric-li', 'servicii-li', 'inscrieri-li'];
+			$('#portfoliolist').mixitup({
+				targetSelector: '.portfolio',
+				filterSelector: '.filter',
+				effects: ['fade'],
+				easing: 'snap',
+				// call the hover effect
+				onMixEnd: function() { $('#portfoliolist .portfolio').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);}
+			});	
+			$('#portfoliolist-history').mixitup({
+				targetSelector: '.portfolio',
+				filterSelector: '.filter',
+				effects: ['fade'],
+				easing: 'snap',
+				// call the hover effect
+				onMixEnd: function() { $('#portfoliolist-history .portfolio').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);}
+			});	
+			setTimeout(function() {
+				console.log(2);
+				$('#filter-image').trigger('click');
+			}, 2000);
+			var despreNoiHandler = function() {
+			  	for(var id of ids) {
+			  		$('#' + id).removeClass('active');
+			  	}
+			  	$('#despre-noi-li').addClass('active');
+			}, galerieHandler = function() {
+			  	for(var id of ids) {
+			  		$('#' + id).removeClass('active');
+			  	}
+			  	$('#galerie-li').addClass('active');
+			}, scurtIstoricHandler = function() {
+			  	for(var id of ids) {
+			  		$('#' + id).removeClass('active');
+			  	}
+			  	$('#scurt-istoric-li').addClass('active');
+			}, serviciiHandler = function() {
+			  	for(var id of ids) {
+			  		$('#' + id).removeClass('active');
+			  	}
+			  	$('#servicii-li').addClass('active');
+			}, inscrieriHandler = function() {
+			  	for(var id of ids) {
+			  		$('#' + id).removeClass('active');
+			  	}
+			  	$('#inscrieri-li').addClass('active');
+			};
+			$('#despre-noi').ready(function() {
+				var waypointGalerie = new Waypoint({
+				  element: document.getElementById('despre-noi'),
+				  handler: despreNoiHandler
 				});
-				$('#galerie').ready(function() {
-					var waypointGalerie = new Waypoint({
-					  element: document.getElementById('galerie'),
-					  handler: galerieHandler
-					});
-					$("#galerie-li").click(function() {$('html, body').animate({ scrollTop: $('#galerie').offset().top }, 1000);
-						setTimeout(galerieHandler,1000);})
-				});
-				$('#scurt-istoric').ready(function() {
-					var waypointGalerie = new Waypoint({
-					  element: document.getElementById('scurt-istoric'),
-					  handler: scurtIstoricHandler
-					});
-
-					$("#scurt-istoric-li").click(function() {$('html, body').animate({ scrollTop: $('#scurt-istoric').offset().top }, 1000);
-						setTimeout(scurtIstoricHandler, 1000);})
-				});
-				$('#servicii').ready(function() {
-					var waypointGalerie = new Waypoint({
-					  element: document.getElementById('servicii'),
-					  handler: serviciiHandler
-					});
-					$("#servicii-li").click(function() {$('html, body').animate({ scrollTop: $('#servicii').offset().top }, 1000);
-					setTimeout(serviciiHandler, 1000);})
-				});
-				$('#inscrieri').ready(function() {
-					console.log('inscrieri-ready');
-					var waypointGalerie = new Waypoint({
-					  element: document.getElementById('inscrieri'),
-					  handler: inscrieriHandler
-					});
-					$("#inscrieri-li").click(function() {$('html, body').animate({ scrollTop: $('#inscrieri').offset().top }, 1000);
-					setTimeout(inscrieriHandler, 1000);})
-				});
-
+				$("#despre-noi-li").click(function() {$('html, body').animate({ scrollTop: $('#despre-noi').offset().top }, 1000);
+					setTimeout(despreNoiHandler, 1000);})
 			});
-	</script>	
+			$('#galerie').ready(function() {
+				var waypointGalerie = new Waypoint({
+				  element: document.getElementById('galerie'),
+				  handler: galerieHandler
+				});
+				$("#galerie-li").click(function() {$('html, body').animate({ scrollTop: $('#galerie').offset().top }, 1000);
+					setTimeout(galerieHandler,1000);})
+			});
+			$('#scurt-istoric').ready(function() {
+				var waypointGalerie = new Waypoint({
+				  element: document.getElementById('scurt-istoric'),
+				  handler: scurtIstoricHandler
+				});
+
+				$("#scurt-istoric-li").click(function() {$('html, body').animate({ scrollTop: $('#scurt-istoric').offset().top }, 1000);
+					setTimeout(scurtIstoricHandler, 1000);})
+			});
+			$('#servicii').ready(function() {
+				var waypointGalerie = new Waypoint({
+				  element: document.getElementById('servicii'),
+				  handler: serviciiHandler
+				});
+				$("#servicii-li").click(function() {$('html, body').animate({ scrollTop: $('#servicii').offset().top }, 1000);
+				setTimeout(serviciiHandler, 1000);})
+			});
+			$('#inscrieri').ready(function() {
+				console.log('inscrieri-ready');
+				var waypointGalerie = new Waypoint({
+				  element: document.getElementById('inscrieri'),
+				  handler: inscrieriHandler
+				});
+				$("#inscrieri-li").click(function() {$('html, body').animate({ scrollTop: $('#inscrieri').offset().top }, 1000);
+				setTimeout(inscrieriHandler, 1000);})
+			});
+
+		});
+</script>	
 </head>
 <body>
 <div class="header">	
